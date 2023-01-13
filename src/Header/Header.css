@@ -1,0 +1,25 @@
+.header-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-content li a {
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+    padding: .5rem;
+}
+a.normal {
+  color: rgb(76, 73, 73);
+}
+
+a.active {
+  border-bottom: 2px solid rgb(3, 158, 255);
+  color: rgb(3, 158, 255);
+}
